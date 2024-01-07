@@ -25,14 +25,15 @@ const Projects = () => {
             generation. Allowing users to customize recipes based on their
             preferred ingredients.
           </div>
-          <a
-            href="https://blue-sea-0c87b5f03.4.azurestaticapps.net/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.link}
-          >
-            Link
-          </a>
+          <button className={styles.link}>
+            <a
+              href="https://blue-sea-0c87b5f03.4.azurestaticapps.net/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link
+            </a>
+          </button>
         </div>
       </div>
       <div className={styles.project}>
