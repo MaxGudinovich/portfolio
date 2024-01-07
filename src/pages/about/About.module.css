@@ -1,0 +1,105 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px 200px;
+  margin-top: -100px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+}
+
+.title h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0em;
+  background: linear-gradient(
+    to right,
+    rgba(84, 82, 82, 1),
+    rgba(27, 27, 27, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
+
+.content {
+  display: flex;
+}
+
+.photo {
+  margin-top: 86px;
+}
+
+.descriptionContainer {
+  margin-left: 63px;
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descOne {
+  padding: 58px 46px;
+  max-width: 735px;
+  min-height: 386px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.descOne p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+}
+
+.descTwo {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 45px;
+  margin-top: 89px;
+  max-width: 735px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.descTwo h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin: 15px;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 10px;
+}

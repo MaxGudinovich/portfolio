@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;700&display=swap');
+
 .App {
-  text-align: center;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    35deg,
+    rgba(155, 159, 247, 1),
+    rgba(234, 233, 241, 1),
+    rgba(142, 145, 201, 1)
+  );
+}
+
+.active {
+  color: rgba(75, 31, 252, 1);
 }
