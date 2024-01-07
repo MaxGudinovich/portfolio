@@ -1,3 +1,71 @@
 .mainContainer {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px 200px;
+  margin-top: -100px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+}
+
+.title h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0em;
+  background: linear-gradient(
+    to right,
+    rgba(84, 82, 82, 1),
+    rgba(27, 27, 27, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social p {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 25px;
+  color: rgb(41, 22, 115);
+}
+
+.mail {
+  color: rgb(41, 22, 115);
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.mail:hover,
+.link:hover {
+  color: rgba(75, 31, 252, 1);
 }
