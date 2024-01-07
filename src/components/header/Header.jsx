@@ -14,7 +14,11 @@ const Header = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.logo}>
-        <img src="logo.png" alt="logo" onClick={toHome} />
+        <img
+          src="https://maxgudinovich.github.io/portfolio/logo.png"
+          alt="logo"
+          onClick={toHome}
+        />
       </div>
       <div className={styles.navBar}>
         <NavLink to="home" className={styles.navLink}>
@@ -31,7 +35,11 @@ const Header = () => {
         </NavLink>
       </div>
       <div className={styles.contactAnimation}>
-        <img src="contactcircle.png" alt="circle" onClick={toContact} />
+        <img
+          src="https://maxgudinovich.github.io/portfolio/contactcircle.png"
+          alt="circle"
+          onClick={toContact}
+        />
       </div>
     </div>
   );

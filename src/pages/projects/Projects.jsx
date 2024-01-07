@@ -12,7 +12,7 @@ const Projects = () => {
       </div>
       <div className={styles.project}>
         <img
-          src="project1.svg"
+          src="https://maxgudinovich.github.io/portfolio/project1.svg"
           alt="1"
           onClick={(e) =>
             toWebsite('https://blue-sea-0c87b5f03.4.azurestaticapps.net/')
@@ -25,14 +25,12 @@ const Projects = () => {
             generation. Allowing users to customize recipes based on their
             preferred ingredients.
           </div>
-          <button className={styles.link}>
-            <a
-              href="https://blue-sea-0c87b5f03.4.azurestaticapps.net/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Link
-            </a>
+          <button
+            onClick={(e) =>
+              toWebsite('https://blue-sea-0c87b5f03.4.azurestaticapps.net/')
+            }
+          >
+            Link
           </button>
         </div>
       </div>
@@ -46,17 +44,16 @@ const Projects = () => {
             user interfaces.
           </div>
 
-          <a
-            href="https://maxgudinovich.github.io/fakeshop/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.link}
+          <button
+            onClick={(e) =>
+              toWebsite('https://maxgudinovich.github.io/fakeshop/')
+            }
           >
             Link
-          </a>
+          </button>
         </div>
         <img
-          src="project3.svg"
+          src="https://maxgudinovich.github.io/portfolio/project3.svg"
           alt="3"
           onClick={(e) =>
             toWebsite('https://maxgudinovich.github.io/fakeshop/')
@@ -65,7 +62,7 @@ const Projects = () => {
       </div>
       <div className={styles.project}>
         <img
-          src="project2.svg"
+          src="https://maxgudinovich.github.io/portfolio/project2.svg"
           alt="2"
           onClick={(e) =>
             toWebsite('https://maxgudinovich.github.io/ankiclone/')
@@ -79,14 +76,13 @@ const Projects = () => {
             studying. Implemented state management with Redux"
           </div>
 
-          <a
-            href="https://maxgudinovich.github.io/ankiclone/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.link}
+          <button
+            onClick={(e) =>
+              toWebsite('https://maxgudinovich.github.io/ankiclone/')
+            }
           >
             Link
-          </a>
+          </button>
         </div>
       </div>
     </div>

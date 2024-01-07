@@ -19,7 +19,10 @@ const About = () => {
       </div>
       <div className={styles.content}>
         <div className={styles.photo}>
-          <img src="aboutGroup.png" alt="aboutGroup" />
+          <img
+            src="https://maxgudinovich.github.io/portfolio/aboutGroup.png"
+            alt="aboutGroup"
+          />
         </div>
         <div className={styles.descriptionContainer}>
           <div className={styles.descOne}>

@@ -39,6 +39,24 @@
   cursor: pointer;
 }
 
+.project button {
+  cursor: pointer;
+  height: 50px;
+  max-width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: rgb(41, 22, 115);
+  color: white;
+  transition: 0.7s;
+}
+
+.project button:hover {
+  background: rgba(75, 31, 252, 1);
+}
+
 .descriptions {
   padding: 30px 50px;
   display: flex;
@@ -60,9 +78,4 @@
   line-height: 26px;
   letter-spacing: 0.02em;
   margin-bottom: 30px;
-}
-
-.link {
-  font-size: 24px;
-  text-decoration: none;
 }

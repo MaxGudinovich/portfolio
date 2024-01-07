@@ -20,7 +20,11 @@ const Home = () => {
         <button onClick={toAbout}>Get Started</button>
       </div>
       <div className={styles.photoContainer}>
-        <img src="photoGroup.png" alt="photoGroup" className={styles.photo} />
+        <img
+          src="https://maxgudinovich.github.io/portfolio/photoGroup.png"
+          alt="photoGroup"
+          className={styles.photo}
+        />
       </div>
     </div>
   );
