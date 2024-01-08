@@ -13,9 +13,10 @@ const Home = () => {
       <div className={styles.content}>
         <h1>Embark on a coding adventure</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Auctor turpis quam ut sagittis
-          pharetra diam. Aenean odio elit etiam aliquam tellus nisl massa.Aenean
-          odio elit etiam aliquam tellus nisl massa.
+          I am enthusiastic about joining a collaborative team to contribute my
+          coding skills and learn from experienced professionals. Excited about
+          the prospect of continuous learning and growth within a
+          forward-thinking team.
         </p>
         <button onClick={toAbout}>Get Started</button>
         <div className={styles.mobileImageContainer}>
