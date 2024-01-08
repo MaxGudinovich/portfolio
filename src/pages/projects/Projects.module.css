@@ -86,8 +86,28 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
+  .project {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .projectReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 530px) {
+  .mainContainer {
+    padding: 30px 40px;
+  }
+
+  .descriptions {
+    padding: 0;
+  }
+
+  .title {
+    display: none;
+  }
 }

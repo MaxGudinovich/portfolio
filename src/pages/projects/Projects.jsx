@@ -34,7 +34,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className={styles.project}>
+      <div className={`${styles.project} ${styles.projectReverse}`}>
         <div className={styles.descriptions}>
           <div className={styles.name}>Fake shop</div>
           <div className={styles.description}>

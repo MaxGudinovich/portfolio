@@ -123,4 +123,48 @@
 }
 
 @media screen and (max-width: 620px) {
+  .mainContainer {
+    padding: 0 50px 30px;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .mobilePhoto {
+    display: flex;
+  }
+
+  .descriptionContainer {
+    margin: 0;
+  }
+
+  .descOne {
+    margin-top: 30px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .descOne p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .descTwo {
+    margin-top: 30px;
+    padding: 20px 15px;
+    align-items: center;
+  }
+
+  .skill {
+    margin: 5px 5px 5px 10px;
+  }
 }

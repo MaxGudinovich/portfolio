@@ -14,3 +14,11 @@
 .active {
   color: rgba(75, 31, 252, 1);
 }
+
+@media screen and (max-width: 620px) {
+  .active {
+    color: rgba(20, 20, 20, 1);
+    background-color: rgba(142, 159, 247, 1);
+    border-radius: 50%;
+  }
+}
