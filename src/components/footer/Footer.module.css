@@ -28,3 +28,14 @@
   color: rgba(255, 255, 255, 1);
   margin-top: 16px;
 }
+
+@media screen and (max-width: 620px) {
+  .mainContainer {
+    padding: 30px 20px 10px 20px;
+    height: 150px;
+  }
+
+  .content {
+    padding: 0;
+  }
+}

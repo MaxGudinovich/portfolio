@@ -47,7 +47,7 @@
   border: none;
   border-radius: 25px;
   background-color: rgb(41, 22, 115);
-  transition: 0.7s; /* Применение transition только для background */
+  transition: 0.7s;
 }
 
 .content button:hover {
@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 620px) {
   .mainContainer {
-    padding: 70px 45px 0;
+    padding: 50px 45px 0;
   }
 
   .photoContainer {
@@ -124,7 +124,26 @@
     text-align: center;
   }
 
+  .content button {
+    width: 147px;
+    height: 36px;
+    padding: 4px 24px;
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+
   .mobileImageContainer {
     display: flex;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mobileImageContainer img {
+    height: 300px;
+    width: 100%;
   }
 }

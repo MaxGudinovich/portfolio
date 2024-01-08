@@ -24,6 +24,12 @@ const About = () => {
             alt="aboutGroup"
           />
         </div>
+        <div className={styles.mobilePhoto}>
+          <img
+            src="https://maxgudinovich.github.io/portfolio/aboutPhoto.png"
+            alt="aboutPhoto"
+          />
+        </div>
         <div className={styles.descriptionContainer}>
           <div className={styles.descOne}>
             <p>

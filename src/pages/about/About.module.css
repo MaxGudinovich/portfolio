@@ -43,6 +43,10 @@
   margin-top: 86px;
 }
 
+.mobilePhoto {
+  display: none;
+}
+
 .descriptionContainer {
   margin-left: 63px;
   margin-top: 72px;
@@ -110,8 +114,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 620px) {
 }
