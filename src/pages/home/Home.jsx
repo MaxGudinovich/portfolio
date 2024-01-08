@@ -18,6 +18,13 @@ const Home = () => {
           odio elit etiam aliquam tellus nisl massa.
         </p>
         <button onClick={toAbout}>Get Started</button>
+        <div className={styles.mobileImageContainer}>
+          <img
+            src="https://maxgudinovich.github.io/portfolio/mobileHome.png"
+            alt="mobilePhoto"
+            className={styles.mobilePhoto}
+          />
+        </div>
       </div>
       <div className={styles.photoContainer}>
         <img
