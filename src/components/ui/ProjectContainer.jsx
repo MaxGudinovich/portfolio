@@ -10,7 +10,7 @@ const ProjectContainer = ({ props, index }) => {
       }`}
     >
       <img
-        src={`portfolio/${props.image}`}
+        src={`${props.image}`}
         alt={props.name}
         className={`${
           index % 2 !== 0

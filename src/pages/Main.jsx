@@ -17,22 +17,67 @@ const Main = () => {
   ];
 
   const skills = [
-    { name: 'JavaScript', icon: 'javascript.svg' },
-    { name: 'TypeScript', icon: 'typescript.svg' },
-    { name: 'C#', icon: 'csharp.svg' },
-    { name: '.NET', icon: 'dotnet.svg' },
-    { name: 'React', icon: 'reactjs.svg' },
-    { name: 'Redux', icon: 'redux.svg' },
-    { name: 'Vue.js', icon: 'vuejs.svg' },
-    { name: 'Angular', icon: 'angular.svg' },
-    { name: 'MongoDB', icon: 'mongodb.svg' },
-    { name: 'My SQL', icon: 'mysql.svg' },
-    { name: 'Docker', icon: 'docker.svg' },
-    { name: 'Node.js', icon: 'nodejs.svg' },
-    { name: 'GitHub', icon: 'github.svg' },
-    { name: 'Sass', icon: 'sass.svg' },
-    { name: 'CSS', icon: 'css.svg' },
-    { name: 'HTML', icon: 'html.svg' },
+    {
+      name: 'JavaScript',
+      icon: 'https://maxgudinovich.github.io/portfolio/javascript.svg',
+    },
+    {
+      name: 'TypeScript',
+      icon: 'https://maxgudinovich.github.io/portfolio/typescript.svg',
+    },
+    {
+      name: 'C#',
+      icon: 'https://maxgudinovich.github.io/portfolio/csharp.svg',
+    },
+    {
+      name: '.NET',
+      icon: 'https://maxgudinovich.github.io/portfolio/dotnet.svg',
+    },
+    {
+      name: 'React',
+      icon: 'https://maxgudinovich.github.io/portfolio/reactjs.svg',
+    },
+    {
+      name: 'Redux',
+      icon: 'https://maxgudinovich.github.io/portfolio/redux.svg',
+    },
+    {
+      name: 'Vue.js',
+      icon: 'https://maxgudinovich.github.io/portfolio/vuejs.svg',
+    },
+    {
+      name: 'Angular',
+      icon: 'https://maxgudinovich.github.io/portfolio/angular.svg',
+    },
+    {
+      name: 'MongoDB',
+      icon: 'https://maxgudinovich.github.io/portfolio/mongodb.svg',
+    },
+    {
+      name: 'My SQL',
+      icon: 'https://maxgudinovich.github.io/portfolio/mysql.svg',
+    },
+    {
+      name: 'Docker',
+      icon: 'https://maxgudinovich.github.io/portfolio/docker.svg',
+    },
+    {
+      name: 'Node.js',
+      icon: 'https://maxgudinovich.github.io/portfolio/nodejs.svg',
+    },
+    {
+      name: 'GitHub',
+      icon: 'https://maxgudinovich.github.io/portfolio/github.svg',
+    },
+    {
+      name: 'Sass',
+      icon: 'https://maxgudinovich.github.io/portfolio/sass.svg',
+    },
+    { name: 'CSS', icon: 'https://maxgudinovich.github.io/portfolio/css.svg' },
+    {
+      name: 'HTML',
+      icon: 'https://maxgudinovich.github.io/portfolio/html.svg',
+    },
   ];
 
   const projects = [

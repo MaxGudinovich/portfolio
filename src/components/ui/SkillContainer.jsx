@@ -4,7 +4,7 @@ const SkillContainer = ({ props }) => {
   return (
     <div className={styles.skill}>
       <img
-        src={`portfolio/${props.icon}`}
+        src={`${props.icon}`}
         alt={props.skill}
         className={styles.skill__icon}
       />
