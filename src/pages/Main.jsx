@@ -48,7 +48,7 @@ const Main = () => {
         { name: 'CSS', icon: 'css.svg' },
         { name: 'HTML', icon: 'html.svg' },
       ],
-      image: 'cookify.svg',
+      image: 'https://maxgudinovich.github.io/portfolio/cookify.svg',
       link: 'https://blue-sea-0c87b5f03.4.azurestaticapps.net/',
     },
     {
@@ -63,7 +63,7 @@ const Main = () => {
         { name: 'CSS', icon: 'css.svg' },
         { name: 'HTML', icon: 'html.svg' },
       ],
-      image: 'ankiclone.svg',
+      image: 'https://maxgudinovich.github.io/portfolio/ankiclone.svg',
       link: 'https://vue-anki-learning.netlify.app/',
     },
     {
@@ -77,7 +77,7 @@ const Main = () => {
         { name: 'CSS', icon: 'css.svg' },
         { name: 'HTML', icon: 'html.svg' },
       ],
-      image: 'fakeshop.svg',
+      image: 'https://maxgudinovich.github.io/portfolio/fakeshop.svg',
       link: 'https://maxgudinovich.github.io/fakeshop/',
     },
     {
@@ -88,7 +88,7 @@ const Main = () => {
         { name: 'C#', icon: 'csharp.svg' },
         { name: '.NET', icon: 'dotnet.svg' },
       ],
-      image: 'news.svg',
+      image: 'https://maxgudinovich.github.io/portfolio/news.svg',
       link: 'https://github.com/teach-lab/orphea-be',
     },
   ];
