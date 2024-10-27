@@ -8,7 +8,7 @@ const About = ({ languages }) => {
       <h2 className={styles.about__title}>ABOUT ME</h2>
       <div className={styles.description}>
         <img
-          src="portfolio/photoSubtitle.svg"
+          src="https://maxgudinovich.github.io/portfolio/photoSubtitle.svg"
           alt="aboutPhoto"
           className={styles.description__img}
         />
