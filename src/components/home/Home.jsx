@@ -36,7 +36,7 @@ const Home = () => {
       <div className={styles.home__photo}>
         <img
           className={styles.home__photo_img}
-          src="portfolio/photoTitle.svg"
+          src="https://maxgudinovich.github.io/portfolio/photoTitle.svg"
           alt="photoTit"
         />
       </div>
