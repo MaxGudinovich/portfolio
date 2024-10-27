@@ -114,7 +114,7 @@ const Footer = () => {
         >
           <img
             className={styles.footer__social_icon}
-            src="portfolio/linkedinFooter.svg"
+            src="https://maxgudinovich.github.io/portfolio/linkedinFooter.svg"
             alt="linkedin"
           />
         </a>
@@ -125,7 +125,7 @@ const Footer = () => {
         >
           <img
             className={styles.footer__social_icon}
-            src="portfolio/githubFooter.svg"
+            src="https://maxgudinovich.github.io/portfolio/githubFooter.svg"
             alt="github"
           />
         </a>
@@ -137,7 +137,7 @@ const Footer = () => {
         >
           <img
             className={styles.footer__social_icon}
-            src="portfolio/facebookFooter.svg"
+            src="https://maxgudinovich.github.io/portfolio/facebookFooter.svg"
             alt="facebook"
           />
         </a>
