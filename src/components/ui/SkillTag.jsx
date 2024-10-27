@@ -4,7 +4,7 @@ const SkillTag = ({ props }) => {
   return (
     <div className={styles.tag}>
       <img
-        src={`portfolio/${props.icon}`}
+        src={`${props.icon}`}
         alt={props.name}
         className={styles.tag__icon}
       />

@@ -85,15 +85,24 @@ const Footer = () => {
       <div className={styles.footer__contact}>
         <h3 className={styles.footer__contact_title}>Contact</h3>
         <div className={styles.footer__contact_text}>
-          <img src="portfolio/phone.svg" alt="phone" />
+          <img
+            src="https://maxgudinovich.github.io/portfolio/phone.svg"
+            alt="phone"
+          />
           <p>+41 76 5941069</p>
         </div>
         <div className={styles.footer__contact_text}>
-          <img src="portfolio/email.svg" alt="email" />
+          <img
+            src="https://maxgudinovich.github.io/portfolio/email.svg"
+            alt="email"
+          />
           <p>maksymhudinovych@gmail.com</p>
         </div>
         <div className={styles.footer__contact_text}>
-          <img src="portfolio/location.svg" alt="location" />
+          <img
+            src="https://maxgudinovich.github.io/portfolio/location.svg"
+            alt="location"
+          />
           <p>3006 Bern</p>
         </div>
       </div>
