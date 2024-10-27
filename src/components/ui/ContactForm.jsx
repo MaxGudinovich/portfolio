@@ -7,7 +7,10 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <div className={styles.aftermessage}>
-        <img src="portfolio/done.svg" alt="done" />
+        <img
+          src="https://maxgudinovich.github.io/portfolio/done.svg"
+          alt="done"
+        />
         <p>Thanks for the message!</p>
       </div>
     );
