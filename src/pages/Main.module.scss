@@ -1,0 +1,88 @@
+.main {
+  display: flex;
+  padding: 0px 103px;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.gradientBg {
+  position: relative;
+}
+
+.gradientBg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+      circle at 100% 0%,
+      rgba(158, 237, 224, 0.15),
+      transparent 30%
+    ),
+    radial-gradient(circle at 0% 30%, rgba(158, 237, 224, 0.1), transparent 30%),
+    radial-gradient(
+      circle at 100% 60%,
+      rgba(158, 237, 224, 0.1),
+      transparent 30%
+    );
+  background-size: cover;
+  z-index: -1;
+}
+
+.gradientBg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../../public/angular.svg'), url('../../public/css.svg'),
+    url('../../public/html.svg'), url('../../public/javascript.svg'),
+    url('../../public/reactjs.svg'), url('../../public/sass.svg'),
+    url('../../public/typescript.svg'), url('../../public/vuejs.svg'),
+    url('../../public/csharp.svg'), url('../../public/docker.svg'),
+    url('../../public/github.svg'), url('../../public/nodejs.svg'),
+    url('../../public/dotnet.svg'), url('../../public/mongodb.svg'),
+    url('../../public/mysql.svg'), url('../../public/redux.svg');
+  background-repeat: no-repeat;
+  background-position: 30% 5%, 37% 3%, 35% 10%, 40% 15%, 45% 8%, 50% 4%, 55% 12%,
+    60% 6%, 65% 16%, 70% 2.5%, 75% 10%, 80% 3%, 85% 8%, 90% 15%, 94% 5%, 23% 18%;
+  background-size: 50px 50px;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1400px) {
+  .main {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    padding: 10px 25px;
+
+    &__content {
+    }
+  }
+  .gradientBg::before {
+    display: none;
+  }
+
+  .gradientBg::after {
+    display: none;
+  }
+
+  .gradientBg {
+    width: 100%;
+    position: relative;
+  }
+}

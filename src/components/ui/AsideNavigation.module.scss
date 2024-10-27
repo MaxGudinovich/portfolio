@@ -1,0 +1,53 @@
+.asideNavigation {
+  position: sticky;
+  top: 250px;
+  height: fit-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--primary-green);
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 50px;
+    position: relative;
+
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 3px;
+      height: 51px;
+      background-color: var(--primary-green);
+    }
+  }
+}
+
+.active {
+  background-color: var(--primary-green);
+}
+
+@media screen and (max-width: 1400px) {
+  .asideNavigation {
+    top: 200px;
+  }
+}
+
+@media screen and (max-height: 410px) {
+  .asideNavigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .asideNavigation {
+    display: none;
+  }
+}
